@@ -10,7 +10,6 @@ import {
 } from "@chakra-ui/react";
 import getCroppedImageUrl from "../services/image-url";
 import { Genre } from "../Hooks/usegenres";
-import { CgOverflow } from "react-icons/cg";
 
 interface Props {
   onSelectGenre: (genre: Genre) => void;
